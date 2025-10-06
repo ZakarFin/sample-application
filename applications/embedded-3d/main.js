@@ -24,8 +24,7 @@ import 'oskari-bundle!oskari-frontend/bundles/mapping/time-control-3d';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/camera-controls-3d';
 
 // RPC connector
-//  note: old loader
-import 'oskari-loader!oskari-frontend/packages/framework/bundle/rpc/bundle.js';
+import 'oskari-bundle!oskari-frontend/bundles/framework/rpc';
 
 // bundles that are loaded if the user has selected them to be shown on the embedded map
 import 'oskari-lazy-bundle?maprotator!oskari-frontend/bundles/mapping/maprotator';
