@@ -7,20 +7,18 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/ui-components/bu
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundle.js';
 
 // 2D mapmodule and support for additional map layer types
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapmodule/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapwmts/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/maparcgis/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/wfsvector/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapmyplaces/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapuserlayers/bundle.js';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmodule/map2d_ol';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/maparcgis';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmyplaces';
+import 'oskari-bundle!oskari-frontend/bundles/framework/myplacesimport/mapuserlayers';
 
 // additional map related bundles
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/drawtools/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/toolbar/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/infobox/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/heatmap/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/maprotator/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/userstyle/bundle.js';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/drawtools';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/toolbar';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/infobox';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/heatmap';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/maprotator';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/userstyle';
 
 // other bundles
 import 'oskari-bundle!oskari-frontend/bundles/framework/coordinatetool';
@@ -33,7 +31,7 @@ import 'oskari-bundle!oskari-frontend/bundles/framework/userguide';
 import 'oskari-bundle!oskari-frontend/bundles/framework/findbycoordinates';
 
 // support for 3D-layer type and 2d/3d switcher
-import 'oskari-loader!oskari-frontend/packages/mapping/olcs/map3dtiles/bundle.js';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/tiles3d';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/dimension-change';
 
 // app-specific (example) bundle. Remove from actual app!!
