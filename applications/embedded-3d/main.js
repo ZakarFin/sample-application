@@ -8,20 +8,15 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/ui-components/bu
 import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundle.js';
 
 // 3D mapmodule and support for additional map layer types
-//  note: old loader
-import 'oskari-loader!oskari-frontend/packages/mapping/olcs/mapmodule/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/olcs/map3dtiles/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapwmts/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/wfsvector/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/mapuserlayers/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/maparcgis/bundle.js';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmodule/map3d_olcs';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/tiles3d';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/maparcgis';
+import 'oskari-bundle!oskari-frontend/bundles/framework/myplacesimport/mapuserlayers';
 
 // additional map related bundles
-//  note: old loader
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/infobox/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/toolbar/bundle.js';
-import 'oskari-loader!oskari-frontend/packages/mapping/ol/drawtools/bundle.js';
-//  note: new loader
+import 'oskari-bundle!oskari-frontend/bundles/mapping/infobox';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/drawtools';
+import 'oskari-bundle!oskari-frontend/bundles/mapping/toolbar';
 import 'oskari-bundle!oskari-frontend/bundles/framework/coordinatetool';
 import 'oskari-bundle!oskari-frontend/bundles/framework/publishedstatehandler';
 // 3D related bundles
@@ -29,13 +24,10 @@ import 'oskari-bundle!oskari-frontend/bundles/mapping/time-control-3d';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/camera-controls-3d';
 
 // RPC connector
-//  note: old loader
-import 'oskari-loader!oskari-frontend/packages/framework/bundle/rpc/bundle.js';
+import 'oskari-bundle!oskari-frontend/bundles/framework/rpc';
 
 // bundles that are loaded if the user has selected them to be shown on the embedded map
-//  note: old loader
-import 'oskari-lazy-loader?maprotator!oskari-frontend/packages/mapping/ol/maprotator/bundle.js';
-//  note: new loader
+import 'oskari-lazy-bundle?maprotator!oskari-frontend/bundles/mapping/maprotator';
 import 'oskari-lazy-bundle?maplegend!oskari-frontend/bundles/framework/maplegend';
 import 'oskari-lazy-bundle?featuredata!oskari-frontend/bundles/framework/featuredata';
 import 'oskari-lazy-bundle?statsgrid!oskari-frontend/bundles/statistics/statsgrid';
