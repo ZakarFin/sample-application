@@ -10,7 +10,6 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundl
 // 2D mapmodule and support for additional map layer types
 import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmodule/map2d_ol';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/maparcgis';
-import 'oskari-bundle!oskari-frontend/bundles/framework/myplacesimport/mapuserlayers';
 
 // additional map related bundles
 import 'oskari-bundle!oskari-frontend/bundles/mapping/infobox';
