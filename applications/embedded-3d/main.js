@@ -11,7 +11,6 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundl
 import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmodule/map3d_olcs';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/tiles3d';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/maparcgis';
-import 'oskari-bundle!oskari-frontend/bundles/framework/myplacesimport/mapuserlayers';
 
 // additional map related bundles
 import 'oskari-bundle!oskari-frontend/bundles/mapping/infobox';

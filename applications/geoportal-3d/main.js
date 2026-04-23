@@ -10,8 +10,6 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundl
 import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmodule/map3d_olcs';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/tiles3d';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/maparcgis';
-import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmyplaces';
-import 'oskari-bundle!oskari-frontend/bundles/framework/myplacesimport/mapuserlayers';
 
 // additional map related bundles
 import 'oskari-bundle!oskari-frontend/bundles/mapping/drawtools';
@@ -34,14 +32,13 @@ import 'oskari-bundle!oskari-frontend/bundles/framework/search';
 import 'oskari-bundle!oskari-frontend/bundles/framework/statehandler';
 import 'oskari-bundle!oskari-frontend/bundles/framework/timeseries';
 import 'oskari-bundle!oskari-frontend/bundles/framework/userguide';
+import 'oskari-bundle!oskari-frontend/bundles/framework/myfeatures';
 
 // app-specific (example) bundle. Remove from actual app!!
 import 'oskari-bundle!../../bundles/sample-info';
 
 // lazy-loaded as these are not used for every user (allows mobile version etc)
 import 'oskari-lazy-bundle?maprotator!oskari-frontend/bundles/mapping/maprotator';
-import 'oskari-lazy-bundle?myplaces3!oskari-frontend/bundles/framework/myplaces3';
-import 'oskari-lazy-bundle?myplacesimport!oskari-frontend/bundles/framework/myplacesimport';
 import 'oskari-lazy-bundle?mydata!oskari-frontend/bundles/framework/mydata';
 import 'oskari-lazy-bundle?publisher2!oskari-frontend/bundles/framework/publisher2';
 import 'oskari-lazy-bundle?statsgrid!oskari-frontend/bundles/statistics/statsgrid';

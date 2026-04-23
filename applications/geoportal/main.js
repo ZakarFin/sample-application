@@ -9,8 +9,6 @@ import 'oskari-loader!oskari-frontend/packages/framework/bundle/divmanazer/bundl
 // 2D mapmodule and support for additional map layer types
 import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmodule/map2d_ol';
 import 'oskari-bundle!oskari-frontend/bundles/mapping/maparcgis';
-import 'oskari-bundle!oskari-frontend/bundles/mapping/mapmyplaces';
-import 'oskari-bundle!oskari-frontend/bundles/framework/myplacesimport/mapuserlayers';
 
 // additional map related bundles
 import 'oskari-bundle!oskari-frontend/bundles/mapping/drawtools';
@@ -29,6 +27,7 @@ import 'oskari-bundle!oskari-frontend/bundles/framework/statehandler';
 import 'oskari-bundle!oskari-frontend/bundles/framework/timeseries';
 import 'oskari-bundle!oskari-frontend/bundles/framework/userguide';
 import 'oskari-bundle!oskari-frontend/bundles/framework/findbycoordinates';
+import 'oskari-bundle!oskari-frontend/bundles/framework/myfeatures';
 
 // support for 3D-layer type and 2d/3d switcher
 import 'oskari-bundle!oskari-frontend/bundles/mapping/tiles3d';
@@ -43,8 +42,6 @@ import 'oskari-lazy-bundle?metadataflyout!oskari-frontend/bundles/catalogue/meta
 import 'oskari-lazy-bundle?search!oskari-frontend/bundles/framework/search';
 import 'oskari-lazy-bundle?featuredata!oskari-frontend/bundles/framework/featuredata';
 import 'oskari-lazy-bundle?language-selector!oskari-frontend/bundles/framework/language-selector';
-import 'oskari-lazy-bundle?myplaces3!oskari-frontend/bundles/framework/myplaces3';
-import 'oskari-lazy-bundle?myplacesimport!oskari-frontend/bundles/framework/myplacesimport';
 import 'oskari-lazy-bundle?mydata!oskari-frontend/bundles/framework/mydata';
 import 'oskari-lazy-bundle?publisher2!oskari-frontend/bundles/framework/publisher2';
 import 'oskari-lazy-bundle?statsgrid!oskari-frontend/bundles/statistics/statsgrid';
