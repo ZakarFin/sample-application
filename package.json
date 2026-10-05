@@ -1,15 +1,15 @@
 {
   "name": "sample-application",
-  "version": "2.4.0-dev",
+  "version": "2.4.0",
   "description": "Sample frontend for Oskari map application. Site visible in dev.oskari.org.",
   "keywords": [
     "Oskari"
   ],
   "dependencies": {
-    "oskari-frontend": "git+https://git@github.com/oskariorg/oskari-frontend.git#develop"
+    "oskari-frontend": "git+https://git@github.com/oskariorg/oskari-frontend.git#3.4.0"
   },
   "devDependencies": {
-    "eslint": "9.39.4"
+    "eslint": "9.39.5"
   },
   "scripts": {
     "dev-mode": "node ./node_modules/oskari-frontend/scripts/oskari-dev-mode",
